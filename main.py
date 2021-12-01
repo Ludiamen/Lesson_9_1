@@ -32,4 +32,6 @@ def intelligence_compare(hero_list):
     print(f"Самый интелектуальный супергерой: {name}, его интелект: {intelligence_super_hero}")  # Выводим результат
 
 
-intelligence_compare(superhero_list)  # Вызываем созданную функцию
+if __name__ == '__main__':
+
+    intelligence_compare(superhero_list)  # Вызываем созданную функцию
